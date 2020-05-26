@@ -26,7 +26,7 @@ func NewNoteResource(store store.Store, logger *log.Logger) *NoteResource {
 //Router provides necessary routes for note resources.
 func (n *NoteResource) Router() *chi.Mux {
 	r := chi.NewRouter()
-	r.Get("/", n.handleGetNotes)
+	r.Get("/notes", n.handleGetNotes)
 
 	return r
 }
