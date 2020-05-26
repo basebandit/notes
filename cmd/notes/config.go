@@ -29,7 +29,7 @@ func initConfig() {
 
 	err = ioutil.WriteFile(configFile, []byte(cfg), 0666)
 	if err != nil {
-		logger.Fatalf("failed to write configuration file: %s", err)
+		logger.Fatalf("failed to write configuration file: %s", err) 
 	}
 }
 
