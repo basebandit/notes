@@ -9,7 +9,7 @@ Notes is a simple notes api.
 * Download and compile the notes binary:
 
   ```
-    $ download as zip from repl.it and unzip
+    $ go get -u github.com/basebandit/notes
   ```
 
 * Inside an empty directory run:
