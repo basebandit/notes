@@ -5,10 +5,10 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 	"fmt"
-	"html/template"
 	"io/ioutil"
 	"os"
 	"strings"
+	"text/template"
 
 	"github.com/kelseyhightower/envconfig"
 
